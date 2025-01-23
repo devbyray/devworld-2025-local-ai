@@ -206,7 +206,7 @@ _[Ollama🔗](https://ollama.com)_
 
 ---
 
-<TwoCols bg="./video/ollama-llama3.1-terminal.mp4" videoPoster="./images/ollama-llama-3-1-terminal.png" typeBg="video">
+<TwoCols bg="https://res.cloudinary.com/raymons/video/upload/v1737640806/dw2025/videos/ollama-llama3.1-terminal.mp4" videoPoster="./images/ollama-llama-3-1-terminal.png" typeBg="video">
 
 <HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
 
