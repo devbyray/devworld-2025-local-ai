@@ -1,21 +1,17 @@
 ---
-theme: seriph
-background: https://cover.sli.dev
 class: text-center
 drawings:
     persist: false
 transition: slide-left
 mdc: true
 
-title: Empowering Developers with Local AI
+title: Empowering Developers with Local AI 🚀
 author: Raymon S
 ---
 
 <Center>
 
 # Empowering Developers with Local AI 🚀
-
-### Unlocking Developer Productivity with Privacy, Speed, and Control
 
 </Center>
 
@@ -38,13 +34,21 @@ author: Raymon S
 
 ---
 
-<Center>
+<Center size="max-w-lg">
 
 ## 🎯 What to Expect
 
-- **Learn** how local AI tools can empower your workflow.
-- **Discover** privacy-first, cost-effective solutions.
-- **See** real-world demos with tools like **Ollama, Continue.dev, LM Studio, and Open Web UI.**
+- **Learn** how local AI tools can improve your workflow.
+- **Discover** privacy-first and offline solutions.
+- **See** real-world demos with:
+
+<div class="flex flex-row gap-4 pt-4">
+    <Ollama />
+    <OpenWebUI />
+    <LmStudio />
+    <Continue />
+    <Bolt />
+</div>
 
 </Center>
 
@@ -88,14 +92,14 @@ author: Raymon S
 ## 🤔 Why Local AI?
 
 - ✅ **Privacy**
-- ✅ **Data Sovereignty**
+- ✅ **Prevent Data Leaks**
 - ✅ **Cost Efficiency** \*
 - ✅ **Control**
 - ✅ **Speed** \*
 
 <div v-click>
 
-_\* Yes you need more powerfull development computers_ 😅
+_\* Yes you may need more powerful development computers_ 😅
 
 </div>
 
@@ -104,7 +108,7 @@ _\* Yes you need more powerfull development computers_ 😅
 <!--
 
 - ✅ **Privacy:** Your data stays on your machine.
-- ✅ **Data Sovereignty:** Very low risk of leaks or external dependencies.
+- ✅ **Prevent Data Leaks:** Very low risk of leaks or external dependencies.
 - ✅ **Cost Efficiency:** Save on expensive cloud subscriptions\*.
 - ✅ **Control:** Customize tools to suit your needs.
 - ✅ **Speed:** Run AI locally without internet latency\*.
@@ -120,11 +124,32 @@ Yes you need more powerfull development computers
 
 ## 🔧 Tools Overview
 
-- **Ollama:** Local AI model with API support.
-- **LM Studio:** User-friendly interface for AI workflows.
-- **Open Web UI:** Flexible, open-source alternative to ChatGPT.
-- **Bolt.diy:** Build, maintain and run fullstack web apps with AI.
-- **Continue.dev:** Copilot alternative that works with Ollama, LM Studio and more.
+<div class="max-h-[200px] flex justify-center flex-row gap-4">
+    <Card>
+        <Ollama  size="small" /> 
+        Run local AI model  with API support.
+    </Card>
+    <Card>
+        <LmStudio  size="small" /> 
+        User-friendly GUI for running local AI with API support.
+    </Card>
+    <Card>
+        <Bolt  size="small" /> 
+        User-friendly GUI for running local AI with API support.
+    </Card>
+
+</div>
+<div class="max-h-[200px] flex justify-center flex-row gap-4">
+    <Card>
+        <OpenWebUI  size="small" /> 
+        Develop and run fullstack web apps with AI.
+    </Card>
+    <Card>
+        <Continue  size="small" /> 
+        Copilot alternative that works with Ollama, LM Studio and more.
+    </Card>
+
+</div>
 
 </Center>
 
@@ -208,7 +233,7 @@ _[Ollama🔗](https://ollama.com)_
 
 <TwoCols bg="https://res.cloudinary.com/raymons/video/upload/v1737640806/dw2025/videos/ollama-llama3.1-terminal.mp4" videoPoster="./images/ollama-llama-3-1-terminal.png" typeBg="video">
 
-<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
+<HeaderWithLogo logo="https://res.cloudinary.com/raymons/image/upload/v1737640972/dw2025/images/ollama-logo.png" alt="Ollama logo">
 
 ## Ollama via Terminal
 
