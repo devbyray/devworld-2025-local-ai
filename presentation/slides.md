@@ -155,11 +155,22 @@ Yes you need more powerfull development computers
 
 <!--
 
-- **Ollama:** Local AI model with API support.
-- **LM Studio:** User-friendly interface for AI workflows.
-- **Open Web UI:** Flexible, open-source alternative to ChatGPT.
-- **Bolt.diy:** Build, maintain and run fullstack web apps with AI.
-- **Continue.dev:** Copilot alternative that works with Ollama, LM Studio and more.
+### In this talk I want to show you these tools
+
+#### **Ollama:**
+With Ollama you can run local LLM's and they offer a API.
+
+#### **LM Studio:**
+LM Studio is a User-friendly interface for running local LLM's, and also offer a API.
+
+#### **Open Web UI:**
+Open Web UI is a Flexible, open-source alternative to ChatGPT. It's a true
+
+#### **Bolt.diy:**
+Build, maintain and run fullstack web apps with AI.
+
+#### **Continue.dev:**
+Copilot alternative that works with Ollama, LM Studio and more.
 
  -->
 
