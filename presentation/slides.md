@@ -142,7 +142,7 @@ Yes you need more powerfull development computers
 
 <Center>
 
-<img src="./images/screens/images/ollama-website.png" alt="Ollama website" />
+<img src="./images/ollama-website.png" alt="Ollama website" />
 
 _[Ollama🔗](https://ollama.com)_
 
@@ -160,7 +160,7 @@ _[Ollama🔗](https://ollama.com)_
 
 ## Platforms
 
-<img src="./images/screens/images/ollama-download.png" alt="Ollama downloads" />
+<img src="./images/ollama-download.png" alt="Ollama downloads" />
 
 </Center>
 
@@ -177,11 +177,11 @@ _[Ollama🔗](https://ollama.com)_
 
 ---
 
-<TwoCols bg="../images/screens/images/ollama-llama-3-1.png">
+<TwoCols bg="./images/ollama-llama-3-1.png">
 
 <div class="flex gap-4 flex-col">
 
-<HeaderWithLogo logo="../images/ollama-logo.png" alt="Ollama logo">
+<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
 
 </HeaderWithLogo>
 
@@ -206,9 +206,9 @@ _[Ollama🔗](https://ollama.com)_
 
 ---
 
-<TwoCols bg="../images/screens/video/ollama-llama3.1-terminal.mp4" videoPoster="./images/screens/images/ollama-llama-3-1-terminal.png" typeBg="video">
+<TwoCols bg="./video/ollama-llama3.1-terminal.mp4" videoPoster="./images/ollama-llama-3-1-terminal.png" typeBg="video">
 
-<HeaderWithLogo logo="../images/ollama-logo.png" alt="Ollama logo">
+<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
 
 ## Ollama via Terminal
 
@@ -236,7 +236,7 @@ Check the website of Ollama for all the LLM's that are available.
 
 <Center size="max-w-4xl">
 
-<HeaderWithLogo logo="../images/ollama-logo.png" alt="Ollama logo">
+<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
 
 ## Ollama: API
 
@@ -287,7 +287,7 @@ curl http://localhost:11434/api/generate -d '{
 
 <Center>
 
-<HeaderWithLogo logo="../images/ollama-logo.png" alt="Ollama logo">
+<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
 
 ## Ollama: Comparison
 
