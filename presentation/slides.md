@@ -22,13 +22,10 @@ author: Raymon S
 ## 📋 Agenda
 
 1. Why Local AI Solutions Matter
-2. Ollama
-3. LM Studio
-4. Open Web UI
-5. Bolt.diy
-6. Continue.dev + LM Studio (demo)
-7. Key Takeaways & Resources
-8. Q&A
+2. Local AI Developer Tools
+3. Continue.dev + LM Studio (demo)
+4. Key Takeaways & Resources
+5. Q&A
 
 </Center>
 
@@ -47,7 +44,6 @@ author: Raymon S
     <OpenWebUI />
     <LmStudio />
     <Continue />
-    <Bolt />
 </div>
 
 </Center>
@@ -67,11 +63,7 @@ author: Raymon S
 - **Raymon Schouwenaar**
 - <Age dob="14-05-1988" />
 - **Tech Lead** at SBB via ShareValue.
-- Passionate about:
-    - Frontend Development
-    - Integrating AI into development workflows.
-    - Sharing knowledge.
-    - Help junior developers grow.
+- Passionate about: - Frontend Development - Integrating AI into development workflows. - Sharing knowledge. - Help junior developers grow.
 
 </div>
 
@@ -89,6 +81,26 @@ author: Raymon S
 
 <Center>
 
+## 🤔 What do I mean with Local AI?
+
+Running LLM's on a local computer
+
+</Center>
+
+<!--
+
+# When I talk about local AI
+
+- I mean running LLM's on my computer
+- Not advanced AI like OpenAI or other companies
+- But local LLM's helping me with development work
+
+ -->
+
+---
+
+<Center>
+
 ## 🤔 Why Local AI?
 
 - ✅ **Privacy**
@@ -99,7 +111,7 @@ author: Raymon S
 
 <div v-click>
 
-_\* Yes you may need more powerful development computers_ 😅
+_\* Yes you may need a more powerful computer_ 😅
 
 </div>
 
@@ -110,10 +122,10 @@ _\* Yes you may need more powerful development computers_ 😅
 - ✅ **Privacy:** Your data stays on your machine.
 - ✅ **Prevent Data Leaks:** Very low risk of leaks or external dependencies.
 - ✅ **Cost Efficiency:** Save on expensive cloud subscriptions\*.
-- ✅ **Control:** Customize tools to suit your needs.
+- ✅ **Control:** You control the data that goes in.
 - ✅ **Speed:** Run AI locally without internet latency\*.
 
-Yes you need more powerfull development computers
+## * Yes you may need a more powerful computer
 
 
  -->
@@ -122,7 +134,7 @@ Yes you need more powerfull development computers
 
 <Center>
 
-## 🔧 Tools Overview
+## 🔧 Tools
 
 <div class="max-h-[200px] flex justify-center flex-row gap-4">
     <Card>
@@ -133,16 +145,12 @@ Yes you need more powerfull development computers
         <LmStudio  size="small" /> 
         User-friendly GUI for running local AI with API support.
     </Card>
-    <Card>
-        <Bolt  size="small" /> 
-        User-friendly GUI for running local AI with API support.
-    </Card>
 
 </div>
 <div class="max-h-[200px] flex justify-center flex-row gap-4">
     <Card>
         <OpenWebUI  size="small" /> 
-        Develop and run fullstack web apps with AI.
+        ChatGPT alternative that works with Ollama
     </Card>
     <Card>
         <Continue  size="small" /> 
@@ -155,7 +163,7 @@ Yes you need more powerfull development computers
 
 <!--
 
-### In this talk I want to show you these tools
+### I want to introduce you to my favorite tools
 
 #### **Ollama:**
 With Ollama you can run local LLM's and they offer a API.
@@ -165,9 +173,6 @@ LM Studio is a User-friendly interface for running local LLM's, and also offer a
 
 #### **Open Web UI:**
 Open Web UI is a Flexible, open-source alternative to ChatGPT. It's a true
-
-#### **Bolt.diy:**
-Build, maintain and run fullstack web apps with AI.
 
 #### **Continue.dev:**
 Copilot alternative that works with Ollama, LM Studio and more.
@@ -213,19 +218,22 @@ _[Ollama🔗](https://ollama.com)_
 
 ---
 
-<TwoCols bg="./images/ollama-llama-3-1.png">
+<TwoCols bg="../images/ollama-llama-3-1.png">
 
 <div class="flex gap-4 flex-col">
 
-<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
-
-</HeaderWithLogo>
+<Ollama />
 
 ## _Run open-source LLMs on your computer._
 
 - ✅**Customization**
 - ✅**Chat with your files**
 - ✅**API**
+- ✅ Multiple opensource LLM's
+    - LLama3
+    - Mistral
+    - Gemma 2
+    - DeepSeek
 
 </div>
 
@@ -233,7 +241,7 @@ _[Ollama🔗](https://ollama.com)_
 
 <!--
 
-- **Goal:** Run open-source LLMs on a local computer. Like LLama3.3, Phi4, Mistral and Gemma 2.
+- **Goal:** Run open-source LLMs on a local computer. Like LLama3, Mistral, Gemma 2, and DeepSeek.
 - **Customise:** Create your own version of an LLM by setting the temperature, system prompt, and more.
 - **Chat with your files:** Can check files on your computer if you provide the path as context for a prompt.
 - **API:** Easy to use API for integration with other tools. Or you could build a tool yourself. The API is highly inspired by the OpenAI API for ChatGPT.
@@ -244,11 +252,9 @@ _[Ollama🔗](https://ollama.com)_
 
 <TwoCols bg="https://res.cloudinary.com/raymons/video/upload/v1737640806/dw2025/videos/ollama-llama3.1-terminal.mp4" videoPoster="./images/ollama-llama-3-1-terminal.png" typeBg="video">
 
-<HeaderWithLogo logo="https://res.cloudinary.com/raymons/image/upload/v1737640972/dw2025/images/ollama-logo.png" alt="Ollama logo">
+<Ollama hideTitle />
 
 ## Ollama via Terminal
-
-</HeaderWithLogo>
 
 - `ollama list`
 - `ollama pull llama3.1:latest`
@@ -272,11 +278,9 @@ Check the website of Ollama for all the LLM's that are available.
 
 <Center size="max-w-4xl">
 
-<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
+<Ollama hideTitle />
 
 ## Ollama: API
-
-</HeaderWithLogo>
 
 <div class="flex flex-row gap-4 w-full">
 
@@ -319,36 +323,60 @@ curl http://localhost:11434/api/generate -d '{
 
 </Center>
 
+<!--
+
+## This is how the Ollama API works
+
+### You can use it to:
+
+- build your own tools or applications
+- connect with existing tools
+
+ -->
+
 ---
 
 <Center>
 
-<HeaderWithLogo logo="images/ollama-logo.png" alt="Ollama logo">
-
-## Ollama: Comparison
-
-</HeaderWithLogo>
-
-- **More private and cost-effective than ChatGPT or GitHub Copilot.**
+<LmStudio />
 
 </Center>
 
+<!--
+
+## Next tools is LM studio
+
+ -->
+
 ---
 
 <Center>
 
-## 🖥️ LM Studio: AI Made Accessible
+<LmStudio hideTitle />
 
-### Why Use LM Studio?
+## LM Studio
+
+- 🧩 User-friendly.
+- 🔗 Intergrates with other tools
+- 📴 Offline usage
+- 📚 Large library of LLMs
+
+</Center>
+
+<!--
+
+## Why use LM Studio?
 
 - 🧩 User-friendly interface for local AI models.
-- 🔗 Seamlessly integrates with **Continue.dev.**
+- 🔗 Integrates with coding assistants and other tools
+- 📴 Offline usage
+- 📚 Large library of LLMs
 - ⚡ Practical use cases:
-    - Code completion.
-    - Refactoring.
-    - Comment generation.
+    - Use local LLM's from Ollama and huggingface
+    - Set system prompts, temprature, structured output
+    - Use GPU
 
-</Center>
+ -->
 
 ---
 
@@ -361,20 +389,6 @@ curl http://localhost:11434/api/generate -d '{
 - 🛠️ Customize workflows locally.
 - 🚀 Flexible open-source alternative to proprietary platforms.
 - 🌍 Supports local LLMs for enhanced privacy.
-
-</Center>
-
----
-
-<Center>
-
-## ⚡ Bolt.diy: Running AI Code Locally
-
-### Highlights
-
-- 🖥️ Execute AI-generated code directly on your machine.
-- 🔧 Ideal for local testing and development.
-- 🕒 **Note:** Demo not included in this session but covered in future workshops.
 
 </Center>
 
