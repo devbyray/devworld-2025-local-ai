@@ -23,9 +23,8 @@ author: Raymon S
 
 1. Why Local AI Solutions Matter
 2. Local AI Developer Tools
-3. Continue.dev + LM Studio (demo)
-4. Key Takeaways & Resources
-5. Q&A
+3. Key Takeaways & Resources
+4. Q&A
 
 </Center>
 
@@ -101,29 +100,25 @@ Running LLM's on a local computer
 
 <Center>
 
-## 🤔 Why Local AI?
+## 🌐 Local AI vs Cloud AI
 
-- ✅ **Privacy**
-- ✅ **Prevent Data Leaks**
-- ✅ **Cost Efficiency** \*
-- ✅ **Control**
-- ✅ **Speed** \*
-
-<div v-click>
-
-_\* Yes you may need a more powerful computer_ 😅
-
-</div>
+| **Feature**       | L**ocal AI Tools**         | **Cloud AI Tools**                   |
+| ----------------- | -------------------------- | ------------------------------------ |
+| **Privacy**       | _High_                     | _Low_                                |
+| **Cost**          | _One-time hardware cost_   | _Recurring subscription_             |
+| **Control**       | _Full control over data_   | _Limited control controle over data_ |
+| **Speed**         | _Depends on your hardware_ | _Most of the time fast_              |
+| **Data Security** | _High_                     | _Variable_                           |
 
 </Center>
 
 <!--
-
 - ✅ **Privacy:** Your data stays on your machine.
 - ✅ **Prevent Data Leaks:** Very low risk of leaks or external dependencies.
 - ✅ **Cost Efficiency:** Save on expensive cloud subscriptions\*.
 - ✅ **Control:** You control the data that goes in.
-- ✅ **Speed:** Run AI locally without internet latency\*.
+- ✅ **Speed:** Run AI locally without internet latency or even offline\*.
+- ✅ **Data Security**: Locally your data is as secure as your computer.
 
 ## * Yes you may need a more powerful computer
 
@@ -134,7 +129,21 @@ _\* Yes you may need a more powerful computer_ 😅
 
 <Center>
 
-## 🔧 Tools
+## 🛠️ Use Cases for Local AI Tools
+
+- **Code Completion**: Use tools like Continue.dev for intelligent code suggestions.
+- **Code Review**: Automate code reviews with local LLMs.
+- **Documentation**: Generate documentation using local AI models.
+- **Data Analysis**: Perform data analysis without sending data to the cloud.
+- **Customization**: Tailor AI models to specific project needs.
+
+</Center>
+
+---
+
+<Center>
+
+## 🔧 Local AI Tools
 
 <div class="max-h-[200px] flex justify-center flex-row gap-4">
     <Card>
@@ -145,17 +154,26 @@ _\* Yes you may need a more powerful computer_ 😅
         <LmStudio  size="small" /> 
         User-friendly GUI for running local AI with API support.
     </Card>
+    <Card>
+        <OpenWebUI  size="small" />
+        ChatGPT alternative that works with Ollama
+    </Card>
 
 </div>
 <div class="max-h-[200px] flex justify-center flex-row gap-4">
-    <Card>
-        <OpenWebUI  size="small" /> 
-        ChatGPT alternative that works with Ollama
-    </Card>
-    <Card>
-        <Continue  size="small" /> 
-        Copilot alternative that works with Ollama, LM Studio and more.
-    </Card>
+<Card>
+    <Continue  size="small" />
+    Copilot alternative for Ollama, LM Studio and more.
+</Card>
+<Card>
+    <BrowserUse  size="small" />
+    Let AI automate your browser
+</Card>
+
+<Card className=" max-w-[250px]">
+    <AutoGPT  size="small" />
+    Create, deploy, and manage continuous AI agents to automate complex workflows
+</Card>
 
 </div>
 
@@ -176,6 +194,11 @@ Open Web UI is a Flexible, open-source alternative to ChatGPT. It's a true
 
 #### **Continue.dev:**
 Copilot alternative that works with Ollama, LM Studio and more.
+
+- [Browser-use](https://github.com/browser-use/browser-use)
+- [Bolt.diy](https://github.com/devbyray/bolt.diy)
+- [n8n](https://github.com/n8n-io/self-hosted-ai-starter-kit)
+[Pydantic](https://github.com/pydantic/pydantic-ai), [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT), [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)
 
  -->
 
@@ -370,11 +393,10 @@ curl http://localhost:11434/api/generate -d '{
 - 🧩 User-friendly interface for local AI models.
 - 🔗 Integrates with coding assistants and other tools
 - 📴 Offline usage
-- 📚 Large library of LLMs
+- 📚 Large library of LLMs from multiple sources like: Ollama and huggingface
 - ⚡ Practical use cases:
     - Use local LLM's from Ollama and huggingface
     - Set system prompts, temprature, structured output
-    - Use GPU
 
  -->
 
@@ -396,40 +418,12 @@ curl http://localhost:11434/api/generate -d '{
 
 <Center>
 
-## 🎥 Live Demo: Continue.dev + DeepSeek Coder
-
-### What You’ll See:
-
-1️⃣ **Code Reviews:** Real-time suggestions for improving code.  
-2️⃣ **Refactoring:** Simplify and optimize code with AI assistance.  
-3️⃣ **Productivity Boost:** Simulated live coding with local AI tools.
-
-</Center>
-
----
-
-<Center>
-
 ## 🎁 Key Takeaways
 
 - **Privacy-First Development:** Local AI keeps your data safe.
 - **Affordable & Accessible:** No need for expensive subscriptions.
 - **Powerful Alternatives:** **Continue.dev + Ollama** can rival GitHub Copilot.
 - **Automation Made Easy:** Tools like **n8n** eliminate repetitive tasks.
-
-</Center>
-
----
-
-<Center>
-
-## ❓ Q&A
-
-Let’s discuss:
-
-- Your concerns about local AI.
-- How to integrate these tools into your workflow.
-- Challenges and solutions for local AI adoption.
 
 </Center>
 
