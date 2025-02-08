@@ -343,6 +343,12 @@ layout: quote
 class: text-center
 ---
 
+<header class="mb-12">
+<span class="pr-2"><Circle title="2" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use LM Studio</em>
+</header>
+
+<LmStudio class="mb-4" />
+
 ## Demo time: LM Studio
 
 Ask `LLama3.2 3B`:
@@ -367,7 +373,7 @@ layout: image-right
 ---
 
 <header class="mb-12">
-<span class="pr-2"><Circle title="1" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install Ollama</em>
+<span class="pr-2"><Circle title="3" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install Ollama</em>
 </header>
 
 <Ollama class="mb-4" />
@@ -398,6 +404,12 @@ layout: quote
 class: text-center
 ---
 
+<header class="mb-12">
+<span class="pr-2"><Circle title="4" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Ollama</em>
+</header>
+
+<Ollama class="mb-4" />
+
 ## Demo time: Ollama
 
 Ask `LLama3.2 3B`:
@@ -420,7 +432,9 @@ What is the difference between a library and framework in the perspective of a d
 layout: two-cols-header
 ---
 
-## Ollama API
+<header class="mb-12">
+<span class="pr-2"><Circle title="5" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Ollama API</em>
+</header>
 
 Try `http://localhost:11434` in your browser.
 
@@ -456,6 +470,62 @@ const callApi = async () => {
 
 <!-- 
 
+1. The API of Ollama is very simple
+2. If you used the OpenAI API, then this feels familair
+
+ -->
+
+---
+image: https://res.cloudinary.com/raymons/image/upload/v1739054165/dw2025/images/26fb1209-1010-4c26-bdb3-dc1b8d734370.png
+layout: image-left
+---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="6" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install Continue.dev</em>
+</header>
+
+
+<Continue class="mb-4" />
+
+- 💖 Open source
+- 🧑‍💻 Extensions for VS Code & JetBrains
+- 🧩 Integrates with many AI API's
+- 📴 Offline/Online usage
+
+<!-- 
+
+
+## Continue.dev
+
+- 💖 Open source
+- 🧑‍💻 Extensions for Visual Studio Code & JetBrains IDE
+- 🧩 Integrates with many AI API's
+- 📴 Offline/Online usage
+
+ -->
+
+
+---
+layout: quote
+class: text-center
+---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="7" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Continue.dev</em>
+</header>
+
+<Continue class="mb-4" />
+
+## Demo time: Continue.dev
+
+Load `qwen2.5-coder-7b-instruct`:
+
+```text
+PROMPT
+```
+
+<!-- 
+
 1. Open Terminal
 2. ollama list
 3. ollama pull llama3.2:3b
@@ -463,7 +533,6 @@ const callApi = async () => {
 5. What is the difference between a library and framework in the perspective of a developer?
 
  -->
-
 ---
 
 ## Security in Focus
