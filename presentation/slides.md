@@ -1,398 +1,336 @@
 ---
+# You can also start simply with 'default'
+theme: seriph
+# random image from a curated Unsplash collection by Anthony
+# like them? see https://unsplash.com/collections/94734566/slidev
+background: https://cover.sli.dev
+# some information about your slides (markdown enabled)
+info: |
+    ## Slidev Starter Template
+    Presentation slides for developers.
+
+    Learn more at [Sli.dev](https://sli.dev)
+# apply unocss classes to the current slide
 class: text-center
+# https://sli.dev/features/drawing
 drawings:
     persist: false
+# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
+# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-
 title: Empowering Developers with Local AI 🚀
 author: Raymon S
 ---
 
-<Center>
+# Bringing AI Closer to Home 🏠
+## Leveraging Local AI for Developer Workflow
 
-# Empowering Developers with Local AI 🚀
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1738107445976-9fbed007121f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+backgroundSize: cover
+---
 
-</Center>
+# Who is using AI at work?
+- ChatGPT
+- Github Copilot
+- Google Gemini 
+- Claude
+- Mistral AI
+- DeepSeek?
 
+---
+class: text-center
 ---
 
 <Center>
 
-## 📋 Agenda
+## Me to!
 
-1. Why Local AI Solutions Matter
-2. Local AI Developer Tools
-3. Key Takeaways & Resources
-4. Q&A
+![](https://res.cloudinary.com/raymons/image/upload/v1686130675/devbyrayray/blog/1__0fLVc6GjamTuPR79Cqce4Q_69f1aa.png)
 
 </Center>
-
+---
+layout: image-left
+image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144534DSC05142.jpg
+backgroundSize: cover
 ---
 
-<Center size="max-w-lg">
+## Hi 👋 everyone
 
-## 🎯 What to Expect
+- 👈Previous year with my buddy Marco. 
+- We showed how developers could use Github Copilot and ChatGPT.
+- This year I came back with more AI stuff! 🤖
 
-- **Learn** how local AI tools can improve your workflow.
-- **Discover** privacy-first and offline solutions.
-- **See** real-world demos with:
+---
+layout: image-left
+image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144310DSC05136.jpg
+backgroundSize: cover
+---
+## Who Am I?
+- I’m Raymon
+- 36 years
+- Tech Lead at SBB via ShareValue
+- I love working with, talking with, and playing with AI 🤖
+- My speciality is Frontend Development 🫶
 
-<div class="flex flex-row gap-4 pt-4">
-    <Ollama />
-    <OpenWebUI />
-    <LmStudio />
-    <Continue />
+---
+layout: image-left
+image: https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+---
+
+## The AI landscape has evolved a lot!
+
+**Recently**: 
+
+- DeepSeek opensourced R1
+- Meta opensourced LLama3.2 and 3.3
+- Microsoft Ph4
+- OpenAI launched 03 mini
+- Google Gemini 2.0
+- and so much more...
+
+<!-- 
+
+### The AI landscape has evolved a lot!
+
+- A lot has changed in the opensource and closed source AI world
+- Recently:
+    - DeepSeek R1: It's reasoning model and the made it completely open source, including how they build it!
+    - LLama 3.2 and 3.2: Meta opensourced LLama 3.2 (small LLM's with 1 and 3B aparameters). Also the LLama 3.3 is opensourced which is a bigger brother with 70B parameters!
+    - Microsoft Phi4: Microsoft opensourced it's state-of-the-art Phi4 model with 14B parameters
+    - Open AI released a lot! o3 mini, o1, GPT 4o and a lot more cool stuff!
+    - Google Gemini 2.0 which is faster and cheaper then everyone else!
+    
+## A lot more, but we don't have time for that!
+
+ -->
+
+---
+layout: image-right
+image: /images/image.png
+---
+
+## 92% of U.S. based developers use AI
+
+_Source: [Github](https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience)_
+
+
+---
+layout: image-left
+image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnByd3ZzaDEybjV3OWZsbzl3Z2w5OGN6eWswandleHF1dG9zbmdkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b8RfbQFaOs1rO10ren/giphy.gif
+class: text-center
+---
+
+## That is a lot! 
+
+---
+layout: image-right
+image: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGJ0aG51YjYwNmtqanBhMjFiNnhnOGQ0cWcxcmpkZjJkYng3dzNpciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5PiSLx5ZHCLaxa5TEx/giphy.gif
+---
+
+## Cloud Provider Gone Offline...
+- **Oops!**
+- What are you going to do?
+- You have a problem!
+
+<!-- 
+
+### A cloud provider goes offline
+
+- Oops!
+- What are you going to do?
+- You are relying on AI, and now you have a problem!
+
+ -->
+
+---
+layout: image
+class: text-center
+image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhha2Jkb3I5ZDYwZnZtNXpwa3lrOWk1aHRnNXZyeWNhNjI4Ymh3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcbZXFDSavfVA2k2fv/giphy.gif
+---
+
+## You Need A Hero!
+
+---
+layout: image
+image: https://res.cloudinary.com/raymons/image/upload/v1739049194/dw2025/images/copilot-error.png
+class: text-center
+---
+
+
+<!-- 
+
+## I had this at the beginning of the month
+
+- I selected the new Gemini 2.0 Flash
+- It broke 
+
+ -->
+
+---
+class: text-center
+---
+
+<div class="h-full flex items-center flex-row justify-center">
+    <div class=" grid grid-cols-2 gap-4">
+        <div class=" col-span-2 flex justify-center items-center">
+            <h2> Local AI to the rescue 🛟 </h2>
+        </div>
+        <Card>
+            <Ollama  /> 
+        </Card>
+        <Card>
+            <OpenWebUI /> 
+        </Card>
+        <Card>
+            <LmStudio /> 
+        </Card>
+        <Card>
+            <Continue  /> 
+        </Card>
+    </div>
 </div>
 
-</Center>
+<!-- 
 
+## Local AI to the rescue
+
+- Ollama: Developer friendly way to run opensource LLM's locally
+- OpenWebUI: ChatGPT alternative which you can connect to Ollama
+- LM Studio: More friendly for non-developers to run opensource LLM's via a GUI
+- Continue.dev: IDE extension for Visual Studio Code and JetBrains to use multiple LLM's as AI coding assistant.
+
+ -->
+---
+layout: image
+image: https://res.cloudinary.com/raymons/image/upload/v1739050286/dw2025/images/add-route-dotnet-continue-dev-landscape.png
+class: text-center
 ---
 
-<Center>
+<!-- 
 
-<header>
+## I had a real world problem!
 
-## 🧑‍💻 About Me
+1. I had to add a new route to a Dotnet application
+2. Since I'm not a .Net developer, I had no idea
+3. Microsoft it's documentation is not my favorite
 
+ -->
+---
+
+<div class="h-full flex items-center flex-row justify-center">
+    <div class=" grid grid-cols-2 gap-4">
+        <div class=" col-span-2 flex justify-center items-center">
+            <h2> What did I use? </h2>
+        </div>
+        <Card>
+            <LmStudio /> 
+        </Card>
+        <Card>
+            <Continue  /> 
+        </Card>
+    </div>
+</div>
+
+---
+layout: image-right
+image: https://res.cloudinary.com/raymons/image/upload/v1739050210/dw2025/images/add-route-dotnet-continue-dev-1.png
+---
+
+## What did I use?
+- I had **LM Studio** already installed
+- Installed **Qwen 2.5 coder 7B**  
+- I installed **Continue.dev**
+- Continued to work 💪
+
+
+<!-- 
+
+## What did I use?
+
+- LM Studio was already installed on my computer
+- I installed **Qwen 2.5 coder 7B** locally
+- I installed **Continue.dev** in my Visual Studio Code
+- And continued to work in no time!
+
+ -->
+---
+layout: quote
+class: text-center
+---
+## Let's dive into the world of local AI
+For Developers 💪
+
+---
+layout: quote
+class: text-center
+---
+
+<Circle title="1" titleSize="font-bold text-6xl text-black font-italic" />
+
+_Running LLM's locally_
+
+---
+class: text-center
+---
+
+
+<div class="h-full flex items-center flex-row justify-center">
+    <div class=" grid grid-cols-3 gap-4">
+        <div class=" col-span-3 flex justify-center items-center">
+            <span class="pr-2"><Circle title="1" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install</em>
+        </div>
+        <Card>
+            <LmStudio /> 
+        </Card>
+        <Card>
+            <h2>OR</h2>
+        </Card>
+        <Card>
+            <Ollama  /> 
+        </Card>
+    </div>
+</div>
+
+<!-- 
+
+## To run LLM's locally you need
+- Ollama
+- OR
+- LM Studio
+
+But you can try out which one you like
+
+ -->
+
+---
+layout: image-left
+image: https://res.cloudinary.com/raymons/image/upload/v1739051820/dw2025/images/714bd8f9-3f6f-4568-8b68-c32114a3fa59.png
+---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="1" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install LM Studio</em>
 </header>
 
-<div>
 
-- **Raymon Schouwenaar**
-- <Age dob="14-05-1988" />
-- **Tech Lead** at SBB via ShareValue.
-- Passionate about: - Frontend Development - Integrating AI into development workflows. - Sharing knowledge. - Help junior developers grow.
+<LmStudio class="mb-4" />
 
-</div>
-
-</Center>
-
----
-
-<Center>
-
-## Let's talk Local AI 🤖
-
-</Center>
-
----
-
-<Center>
-
-## 🤔 What do I mean with Local AI?
-
-Running LLM's on a local computer
-
-</Center>
-
-<!--
-
-# When I talk about local AI
-
-- I mean running LLM's on my computer
-- Not advanced AI like OpenAI or other companies
-- But local LLM's helping me with development work
-
- -->
-
----
-
-<Center>
-
-## 🌐 Local AI vs Cloud AI
-
-| **Feature**       | L**ocal AI Tools**         | **Cloud AI Tools**                   |
-| ----------------- | -------------------------- | ------------------------------------ |
-| **Privacy**       | _High_                     | _Low_                                |
-| **Cost**          | _One-time hardware cost_   | _Recurring subscription_             |
-| **Control**       | _Full control over data_   | _Limited control controle over data_ |
-| **Speed**         | _Depends on your hardware_ | _Most of the time fast_              |
-| **Data Security** | _High_                     | _Variable_                           |
-
-</Center>
-
-<!--
-- ✅ **Privacy:** Your data stays on your machine.
-- ✅ **Prevent Data Leaks:** Very low risk of leaks or external dependencies.
-- ✅ **Cost Efficiency:** Save on expensive cloud subscriptions\*.
-- ✅ **Control:** You control the data that goes in.
-- ✅ **Speed:** Run AI locally without internet latency or even offline\*.
-- ✅ **Data Security**: Locally your data is as secure as your computer.
-
-## * Yes you may need a more powerful computer
-
-
- -->
-
----
-
-<Center>
-
-## 🛠️ Use Cases for Local AI Tools
-
-- **Code Completion**: Use tools like Continue.dev for intelligent code suggestions.
-- **Code Review**: Automate code reviews with local LLMs.
-- **Documentation**: Generate documentation using local AI models.
-- **Data Analysis**: Perform data analysis without sending data to the cloud.
-- **Customization**: Tailor AI models to specific project needs.
-
-</Center>
-
----
-
-<Center>
-
-## 🔧 Local AI Tools
-
-<div class="max-h-[200px] flex justify-center flex-row gap-4">
-    <Card>
-        <Ollama  size="small" /> 
-        Run local AI model  with API support.
-    </Card>
-    <Card>
-        <LmStudio  size="small" /> 
-        User-friendly GUI for running local AI with API support.
-    </Card>
-    <Card>
-        <OpenWebUI  size="small" />
-        ChatGPT alternative that works with Ollama
-    </Card>
-
-</div>
-<div class="max-h-[200px] flex justify-center flex-row gap-4">
-<Card>
-    <Continue  size="small" />
-    Copilot alternative for Ollama, LM Studio and more.
-</Card>
-<Card>
-    <BrowserUse  size="small" />
-    Let AI automate your browser
-</Card>
-
-<Card className=" max-w-[250px]">
-    <AutoGPT  size="small" />
-    Create, deploy, and manage continuous AI agents to automate complex workflows
-</Card>
-
-</div>
-
-</Center>
-
-<!--
-
-### I want to introduce you to my favorite tools
-
-#### **Ollama:**
-With Ollama you can run local LLM's and they offer a API.
-
-#### **LM Studio:**
-LM Studio is a User-friendly interface for running local LLM's, and also offer a API.
-
-#### **Open Web UI:**
-Open Web UI is a Flexible, open-source alternative to ChatGPT. It's a true
-
-#### **Continue.dev:**
-Copilot alternative that works with Ollama, LM Studio and more.
-
-- [Browser-use](https://github.com/browser-use/browser-use)
-- [Bolt.diy](https://github.com/devbyray/bolt.diy)
-- [n8n](https://github.com/n8n-io/self-hosted-ai-starter-kit)
-[Pydantic](https://github.com/pydantic/pydantic-ai), [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT), [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)
-
- -->
-
----
-
-<Center>
-
-<img src="./images/ollama-website.png" alt="Ollama website" />
-
-_[Ollama🔗](https://ollama.com)_
-
-</Center>
-
-<!--
-
-# Who has tried Ollama?
-
- -->
-
----
-
-<Center>
-
-## Platforms
-
-<img src="./images/ollama-download.png" alt="Ollama downloads" />
-
-</Center>
-
-<!--
-
-## Ollama runs the platforms
-
-- MacOS
-- Linux
-- Windows
-- Docker
-
- -->
-
----
-
-<TwoCols bg="../images/ollama-llama-3-1.png">
-
-<div class="flex gap-4 flex-col">
-
-<Ollama />
-
-## _Run open-source LLMs on your computer._
-
-- ✅**Customization**
-- ✅**Chat with your files**
-- ✅**API**
-- ✅ Multiple opensource LLM's
-    - LLama3
-    - Mistral
-    - Gemma 2
-    - DeepSeek
-
-</div>
-
-</TwoCols>
-
-<!--
-
-- **Goal:** Run open-source LLMs on a local computer. Like LLama3, Mistral, Gemma 2, and DeepSeek.
-- **Customise:** Create your own version of an LLM by setting the temperature, system prompt, and more.
-- **Chat with your files:** Can check files on your computer if you provide the path as context for a prompt.
-- **API:** Easy to use API for integration with other tools. Or you could build a tool yourself. The API is highly inspired by the OpenAI API for ChatGPT.
-
- -->
-
----
-
-<TwoCols bg="https://res.cloudinary.com/raymons/video/upload/v1737640806/dw2025/videos/ollama-llama3.1-terminal.mp4" videoPoster="./images/ollama-llama-3-1-terminal.png" typeBg="video">
-
-<Ollama hideTitle />
-
-## Ollama via Terminal
-
-- `ollama list`
-- `ollama pull llama3.1:latest`
-- `ollama run llama3.1:latest`
-
-</TwoCols>
-
-<!--
-
-## Usage via Terminal
-
-- You can use the command `ollama list` for showing all the downloaded LLM's
-- You can use the command `ollama pull llama3.1:latest` for downloading the LLM
-- You can use the command `ollama run llama3.1:latest` for starting a session with LLama3.1
-
-Check the website of Ollama for all the LLM's that are available.
-
- -->
-
----
-
-<Center size="max-w-4xl">
-
-<Ollama hideTitle />
-
-## Ollama: API
-
-<div class="flex flex-row gap-4 w-full">
-
-<div>
-
-### Request
-
-```
-curl http://localhost:11434/api/generate -d '{
-  "model": "llama3.2",
-  "prompt": "Why is the sky blue?",
-  "stream": false
-}'
-```
-
-</div>
-<div>
-
-### Result
-
-```json
-{
-	"model": "llama3.2",
-	"created_at": "2023-08-04T19:22:45.499127Z",
-	"response": "The sky is blue because it is the color of the sky.",
-	"done": true,
-	"context": [1, 2, 3],
-	"total_duration": 5043500667,
-	"load_duration": 5025959,
-	"prompt_eval_count": 26,
-	"prompt_eval_duration": 325953000,
-	"eval_count": 290,
-	"eval_duration": 4709213000
-}
-```
-
-</div>
-
-</div>
-
-</Center>
-
-<!--
-
-## This is how the Ollama API works
-
-### You can use it to:
-
-- build your own tools or applications
-- connect with existing tools
-
- -->
-
----
-
-<Center>
-
-<LmStudio />
-
-</Center>
-
-<!--
-
-## Next tools is LM studio
-
- -->
-
----
-
-<Center>
-
-<LmStudio hideTitle />
-
-## LM Studio
-
+- 💖 Open source
 - 🧩 User-friendly.
 - 🔗 Intergrates with other tools
 - 📴 Offline usage
 - 📚 Large library of LLMs
 
-</Center>
-
 <!--
 
 ## Why use LM Studio?
 
+- 💖 Open source
 - 🧩 User-friendly interface for local AI models.
 - 🔗 Integrates with coding assistants and other tools
-- 📴 Offline usage
+- 📴 Offline usage (you need internet to download a LLM)
 - 📚 Large library of LLMs from multiple sources like: Ollama and huggingface
 - ⚡ Practical use cases:
     - Use local LLM's from Ollama and huggingface
@@ -401,42 +339,137 @@ curl http://localhost:11434/api/generate -d '{
  -->
 
 ---
+layout: quote
+class: text-center
+---
 
-<Center>
+## Demo time: LM Studio
 
-## 🌐 Open Web UI: AI Without Cloud
+Ask `LLama3.2 3B`:
 
-### Key Features
+```text
+What is the difference between a library and framework in the perspective of a developer?
+```
 
-- 🛠️ Customize workflows locally.
-- 🚀 Flexible open-source alternative to proprietary platforms.
-- 🌍 Supports local LLMs for enhanced privacy.
+<!-- 
 
-</Center>
+1. Open LM Studio
+2. Show modes
+3. Show LLM Library
+4. Start new chat with LLama3.2 3B
+5. What is the difference between a library and framework in the perspective of a developer?
+
+ -->
+
+---
+image: https://res.cloudinary.com/raymons/image/upload/v1737640973/dw2025/images/ollama-website.png
+layout: image-right
+---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="1" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install Ollama</em>
+</header>
+
+<Ollama class="mb-4" />
+
+- 💖 Open source
+- 🧑‍💻 Terminal based
+- 🔗 Offers REST API 
+- 🧩 Integrates with coding assistants and other tools
+- 📴 Offline usage
+- 🥇 The best opensource LLM's 
+
+<!-- 
+
+
+## Ollama
+
+- 💖 Open source
+- 🧑‍💻 Is Terminal based
+- 🔗 Offers REST API to connect with your own applications
+- 🧩 Integrates with coding assistants and other tools
+- 📴 Offcourse you can use it offline (you need internet to download a LLM)
+- 🥇 The best opensource LLM's 
+
+ -->
+
+---
+layout: quote
+class: text-center
+---
+
+## Demo time: Ollama
+
+Ask `LLama3.2 3B`:
+
+```text
+What is the difference between a library and framework in the perspective of a developer?
+```
+
+<!-- 
+
+1. Open Terminal
+2. ollama list
+3. ollama pull llama3.2:3b
+4. ollama run llama3.2:3b
+5. What is the difference between a library and framework in the perspective of a developer?
+
+ -->
+
+---
+layout: two-cols-header
+---
+
+## Ollama API
+
+Try `http://localhost:11434` in your browser.
+
+::left::
+```javascript
+//...
+
+const callApi = async () => {
+	loading.value = true
+	const res = await fetch('http://localhost:11434/api/generate', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({
+			model: 'llama3.2:3b',
+			prompt: `What is the difference between
+            a library and framework in the 
+            perspective of a developer?`,
+			stream: false
+		})
+	})
+	const data = await res.json()
+	response.value = cleanResponse(data)
+	loading.value = false
+}
+```
+
+::right::
+
+
+<OllamaApiAction />
+
+<!-- 
+
+1. Open Terminal
+2. ollama list
+3. ollama pull llama3.2:3b
+4. ollama run llama3.2:3b
+5. What is the difference between a library and framework in the perspective of a developer?
+
+ -->
 
 ---
 
-<Center>
-
-## 🎁 Key Takeaways
-
-- **Privacy-First Development:** Local AI keeps your data safe.
-- **Affordable & Accessible:** No need for expensive subscriptions.
-- **Powerful Alternatives:** **Continue.dev + Ollama** can rival GitHub Copilot.
-- **Automation Made Easy:** Tools like **n8n** eliminate repetitive tasks.
-
-</Center>
+## Security in Focus
+- Preventing code leak!
 
 ---
 
-<Center>
-
-## 📂 Resources
-
-- **Ollama:** [ollama.com](https://ollama.com)
-- **LM Studio:** [lmstudio.ai](https://lmstudio.ai)
-- **Open Web UI:** [openwebui.ai](https://openwebui.ai)
-- **Continue.dev:** [continue.dev](https://continue.dev)
-- **My Blog:** [byrayray.dev](https://byrayray.dev)
-
-</Center>
+## Thank You!
+- Any questions?
