@@ -27,6 +27,15 @@ author: Raymon S
 ## Leveraging Local AI for Developer Workflow
 
 ---
+layout: quote
+class: text-center
+---
+
+## Presentation
+
+[https://dw2025.byrayray.dev/](https://dw2025.byrayray.dev/)
+
+---
 layout: image-right
 image: https://images.unsplash.com/photo-1738107445976-9fbed007121f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 backgroundSize: cover
@@ -506,8 +515,8 @@ layout: image-left
 
 
 ---
-layout: quote
-class: text-center
+layout: image-right
+image: https://res.cloudinary.com/raymons/image/upload/v1739128074/dw2025/images/d971e674-0fdf-4dad-a701-2f845440fe34.png
 ---
 
 <header class="mb-12">
@@ -516,29 +525,319 @@ class: text-center
 
 <Continue class="mb-4" />
 
+
 ## Demo time: Continue.dev
 
-Load `qwen2.5-coder-7b-instruct`:
+Load `qwen2.5-coder-7b-instruct` in LM Studio.
 
 ```text
-PROMPT
+How can I start this .Net project via the terminal? Check my codebase
 ```
+
+---
+layout: image-left
+image: https://res.cloudinary.com/raymons/image/upload/v1739128273/dw2025/images/942d4098-f7f2-495e-80d5-1b01e3a69d62.png
+---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="8" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Continue.dev</em>
+</header>
+
+<Continue class="mb-4" />
+
+## Second prompt
+```text
+Show me how to add a new route for the about page
+```
+
+---
+layout: quote
+class: text-center
+---
+
+## Now we replaced 
+<GithubCopilot class="pt-4" /> 
+
+
+---
+layout: image-right
+image: https://res.cloudinary.com/raymons/image/upload/v1739129318/dw2025/images/a67f9ade-a1f2-48dd-8666-a3a630e43693.png
+---
+
+<Continue class="mb-4" />
+
+
+- ✅ Chat
+- ✅ Edit
+- ✅ Auto suggestions
+- ❌ Agents ([in development](https://github.com/continuedev/continue/issues/2274))
+- ✅✅ Docs index
+- ✅✅ Multiple LLM providers
+- 😉 As fast as your computer
+
 
 <!-- 
 
-1. Open Terminal
-2. ollama list
-3. ollama pull llama3.2:3b
-4. ollama run llama3.2:3b
-5. What is the difference between a library and framework in the perspective of a developer?
+## We didn't replaced everything from Github Copilot
+
+But with these features they are providing the most of it
+
+- ✅ Chat
+- ✅ Edit
+- ✅ Auto suggestions
+- ❌ Agents ([in development](https://github.com/continuedev/continue/issues/2274))
+- ✅✅ Docs index (this is a big plus especially with local AI, since it will pickup the dependencies in your package.json and create a vector database of it)
+- ✅✅ Multiple LLM providers (big plus! Both online and local providers!)
+- 😉 As fast as your computer! So if you have a GPU it can be fast enough, but not as fast as online services with big servers
 
  -->
 ---
+layout: quote
+class: text-center
+---
 
-## Security in Focus
-- Preventing code leak!
+## Let's replace
 
+<ChatGPT class="pt-4" />
+
+---
+layout: image-right
+image: https://res.cloudinary.com/raymons/image/upload/v1739130057/dw2025/images/9fb9f86d-a517-427b-859d-e01a7c5b568f.png
+---
+
+<header class="mb-12 flex justify-start items-center gap-2">
+<span class="pr-2"><Circle title="1" background="bg-[#75ac9d]" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> 
+<em>Install OpenWebUI</em> 
+<OpenWebUI hideTitle size="small" />
+</header>
+
+
+
+- 💖 Open source
+- 🖥️ Run via Python or Docker
+- 🧩 Integrates with Ollama and other OpenAI-compatible API's
+- 📴 Offline/Online usage
+- 🕸️ Built-in RAG to add knowledge base
+- 👥 User management
+- 🛠️ Create custom Ollama models and agents
+- 🔍 Websearch
+- [Much more...](https://docs.openwebui.com/features/)
+
+<!-- 
+
+
+## OpenWebUI
+
+- 💖 Open source
+- 🖥️ Run via Python or Docker
+- 🧩 Integrates with Ollama and other OpenAI-compatible API's
+- 📴 Offline/Online usage
+- 🕸️ Built-in engine for RAG (Retrieval-Augmented Generation) to add knowledge base
+- 👥 User management
+- 🛠️ Create custom Ollama models and agents
+- 🔍 Websearch
+- [Much more...](https://docs.openwebui.com/features/)
+
+ -->
+
+---
+layout: quote
+class: text-center
+---
+
+<header class="mb-12 flex justify-center items-center gap-2">
+<span class="pr-2"><Circle title="2" background="bg-[#75ac9d]" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> 
+<em>Use OpenWebUI</em> 
+<OpenWebUI hideTitle size="small" />
+</header>
+
+## Select model
+`deepseek-r1:7b`
+
+<img class=" rounded-t-xl translate-y-4" src="https://res.cloudinary.com/raymons/image/upload/v1739131306/dw2025/images/55ee9f8a-28cc-4678-a944-e135bc9a8312.png" />
+
+---
+layout: quote
+class: text-center
+---
+
+<header class="mb-12 flex justify-center items-center gap-2">
+<span class="pr-2"><Circle title="3" background="bg-[#75ac9d]" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> 
+<em>Use OpenWebUI</em> 
+<OpenWebUI hideTitle size="small" />
+</header>
+
+## Prompt
+```
+How many r's are there in the word Strawberry?
+```
+
+---
+layout: quote
+class: text-center
+---
+
+<header class="mb-12 flex justify-center items-center gap-2">
+<span class="pr-2"><Circle title="4" background="bg-[#75ac9d]" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> 
+<em>Use OpenWebUI</em> 
+<OpenWebUI hideTitle size="small" />
+</header>
+
+## Prompt
+```
+Tell me the 3 most reasons things why I should use TypeScript. But also 3 reasons why I shouldn’t.
+```
+
+---
+layout: quote
+---
+
+<header class="mb-12 flex justify-center items-center gap-2">
+<span class="pr-2"><Circle title="5" background="bg-[#75ac9d]" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> 
+<em>Use OpenWebUI</em> 
+<OpenWebUI hideTitle size="small" />
+</header>
+
+<div class="flex justify-center">
+
+<div>
+
+## Let's put DeepSeek R1 to the test
+
+What goes wrong in this function? Explain it to me lik I'm 12 years old.
+```javascript
+
+function containsValue(arr, value) {
+  // This function is intended to return true if 'value' is in the array,
+  // and false otherwise.
+  return arr.indexOf(value) ? true : false;
+}
+
+// Test cases:
+console.log(containsValue([1, 2, 3], 1)); // Expected: true, but outputs: false
+console.log(containsValue([1, 2, 3], 2)); // Expected: true, outputs: true
+console.log(containsValue([1, 2, 3], 4)); // Expected: false, outputs: false
+```
+</div>
+</div>
+
+---
+layout: quote
+class: text-center
+---
+
+<header class="mb-12 flex justify-center items-center gap-2">
+<span class="pr-2"><Circle title="6" background="bg-[#75ac9d]" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> 
+<em>Use OpenWebUI</em> 
+<OpenWebUI hideTitle size="small" />
+</header>
+
+
+## Try Web Search with LLama3.2
+
+```
+When will be the DevWorld Conference 2025 in Amsterdam RAI? 
+And tell me more about the talks and topics I can expect there?
+```
+
+---
+layout: quote
+---
+
+<div class="flex justify-center">
+
+<div>
+
+<h2 class="text-center">Recap</h2>
+
+- 🤖 **Ollama** and **LM Studio** run opensource LLM's
+- 🧑‍✈️ **Continue.dev** > **Github Copilot**
+- 💬 **OpenWeb UI** > **ChatGPT**
+
+</div>
+</div>
+
+---
+layout: quote
+---
+
+<div class="flex justify-center">
+
+<div>
+
+## 🌐 Local AI vs Cloud AI
+
+| **Feature**       | L**ocal AI Tools**         | **Cloud AI Tools**                   |
+| ----------------- | -------------------------- | ------------------------------------ |
+| **Privacy**       | _High_                     | _Low_                                |
+| **Cost**          | _One-time hardware cost_   | _Recurring subscription_             |
+| **Speed**         | _Depends on your hardware_ | _Most of the time fast_              |
+| **Control**       | _Full control over data_   | _Limited control controle over data_ |
+| **Data Security** | _High_                     | _Variable_                           |
+| **Offline**       | _YES 💪_                   | _No_ 😭                             |
+
+</div>
+</div>
+
+---
+layout: quote
+---
+
+<div class="flex justify-center">
+
+<div>
+
+<h2 class="text-center">Tested on</h2>
+
+- 🥇 MSI Steelseries, Intel Core 9, 64GB RAM, Nvidia RTX 4070
+- 🥈 Macbook Pro M1 16GB
+- 🥉 Asus Zenbook, AMD Ryzen 9 5900HX, 16GB RAM
+
+</div>
+</div>
+
+---
+layout: quote
+---
+
+<div class="flex justify-center">
+
+<div>
+
+<h2 class="text-center">Notes</h2>
+
+- 🏎️ Having a GPU offers performance boost 
+- 🤭 Don't use the biggest LLM's
+- 🪫 Drains your laptop battery faster 
+
+</div>
+</div>
+
+---
+layout: quote
+class: text-center
+---
+
+## Presentation
+
+[https://dw2025.byrayray.dev/](https://dw2025.byrayray.dev/)
+
+Repo: [https://github.com/devbyray/devworld-2025-local-ai](https://github.com/devbyray/devworld-2025-local-ai)
+---
+layout: quote
+class: text-center
 ---
 
 ## Thank You!
-- Any questions?
+
+Questions are more then welcome via:
+
+<div class="flex justify-center pt-4">
+<img src="https://res.cloudinary.com/raymons/image/upload/v1739136412/dw2025/images/qr-code.png" width="200" />
+</div>
+
+[x.com/devbyrayray](https://x.com/devbyrayray)
+
+[github.com/devbyray](https://github.com/devbyray)
+
+[byrayray.dev](https://byrayray.dev)
