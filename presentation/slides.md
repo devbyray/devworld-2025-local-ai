@@ -822,7 +822,11 @@ class: text-center
 
 [https://dw2025.byrayray.dev/](https://dw2025.byrayray.dev/)
 
+
 Repo: [https://github.com/devbyray/devworld-2025-local-ai](https://github.com/devbyray/devworld-2025-local-ai)
+
+_Created with [Sli.dev](https://sli.dev)_
+
 ---
 layout: quote
 class: text-center
