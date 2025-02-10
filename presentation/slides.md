@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144310DSC05136.jpg
 # some information about your slides (markdown enabled)
 info: |
     ## Slidev Starter Template
@@ -21,17 +21,24 @@ transition: slide-left
 mdc: true
 title: Empowering Developers with Local AI 🚀
 author: Raymon S
+
+themeConfig:
+  primary: '#09DE6B'
+favicon: 'https://byrayray.dev/apple-touch-icon.png'
 ---
 
-# Bringing AI Closer to Home 🏠
-## Leveraging Local AI for Developer Workflow
+<LowerThird>
+
+# Empowering Developers with Local AI 🚀
+
+</LowerThird>
 
 ---
 layout: quote
 class: text-center
 ---
 
-## Presentation
+# Presentation
 
 [https://dw2025.byrayray.dev/](https://dw2025.byrayray.dev/)
 
@@ -55,7 +62,7 @@ class: text-center
 
 <Center>
 
-## Me to!
+# Me to!
 
 ![](https://res.cloudinary.com/raymons/image/upload/v1686130675/devbyrayray/blog/1__0fLVc6GjamTuPR79Cqce4Q_69f1aa.png)
 
@@ -66,7 +73,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images
 backgroundSize: cover
 ---
 
-## Hi 👋 everyone
+# Hi 👋 everyone
 
 - 👈Previous year with my buddy Marco. 
 - We showed how developers could use Github Copilot and ChatGPT.
@@ -77,7 +84,7 @@ layout: image-left
 image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144310DSC05136.jpg
 backgroundSize: cover
 ---
-## Who Am I?
+# Who Am I?
 - I’m Raymon
 - 36 years
 - Tech Lead at SBB via ShareValue
@@ -89,7 +96,7 @@ layout: image-left
 image: https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
-## The AI landscape has evolved a lot!
+# The AI landscape has evolved a lot!
 
 **Recently**: 
 
@@ -121,10 +128,12 @@ layout: image-right
 image: /images/image.png
 ---
 
-## 92% of U.S. based developers use AI
+<LowerThird>
 
+# 92% of U.S. based developers use AI
 _Source: [Github](https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience)_
 
+</LowerThird>
 
 ---
 layout: image-left
@@ -132,22 +141,29 @@ image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnByd3ZzaDEybjV3OWZsbzl
 class: text-center
 ---
 
-## That is a lot! 
+<LowerThird>
+
+# That is a lot! 
+
+</LowerThird>
 
 ---
 layout: image-right
 image: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGJ0aG51YjYwNmtqanBhMjFiNnhnOGQ0cWcxcmpkZjJkYng3dzNpciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5PiSLx5ZHCLaxa5TEx/giphy.gif
 ---
 
-## Cloud Provider Gone Offline...
+# What if...
+
+- Github Copilot or ChatGPT goes done?
 - **Oops!**
 - What are you going to do?
-- You have a problem!
+- Do you have a problem!
 
 <!-- 
 
-### A cloud provider goes offline
+## What if...
 
+- Github Copilot or ChatGPT goes done?
 - Oops!
 - What are you going to do?
 - You are relying on AI, and now you have a problem!
@@ -156,18 +172,9 @@ image: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGJ0aG51YjYwNmtqanBhMjF
 
 ---
 layout: image
-class: text-center
-image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhha2Jkb3I5ZDYwZnZtNXpwa3lrOWk1aHRnNXZyeWNhNjI4Ymh3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcbZXFDSavfVA2k2fv/giphy.gif
----
-
-## You Need A Hero!
-
----
-layout: image
 image: https://res.cloudinary.com/raymons/image/upload/v1739049194/dw2025/images/copilot-error.png
 class: text-center
 ---
-
 
 <!-- 
 
