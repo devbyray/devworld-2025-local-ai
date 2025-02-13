@@ -62,7 +62,7 @@ class: text-center
 
 <Center>
 
-# Me to!
+# Me too!
 
 ![](https://res.cloudinary.com/raymons/image/upload/v1686130675/devbyrayray/blog/1__0fLVc6GjamTuPR79Cqce4Q_69f1aa.png)
 
@@ -100,8 +100,8 @@ image: https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?q=80&w=1770&
 
 **Recently**: 
 
-- DeepSeek opensourced R1
-- Meta opensourced LLama3.2 and 3.3
+- DeepSeek open sourced R1
+- Meta open sourced LLama3.2 and 3.3
 - Microsoft Ph4
 - OpenAI launched 03 mini
 - Google Gemini 2.0
@@ -111,11 +111,11 @@ image: https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?q=80&w=1770&
 
 ### The AI landscape has evolved a lot!
 
-- A lot has changed in the opensource and closed source AI world
+- A lot has changed in the open source and closed source AI world
 - Recently:
     - DeepSeek R1: It's reasoning model and the made it completely open source, including how they build it!
-    - LLama 3.2 and 3.2: Meta opensourced LLama 3.2 (small LLM's with 1 and 3B aparameters). Also the LLama 3.3 is opensourced which is a bigger brother with 70B parameters!
-    - Microsoft Phi4: Microsoft opensourced it's state-of-the-art Phi4 model with 14B parameters
+    - LLama 3.2 and 3.2: Meta open sourced LLama 3.2 (small LLMs with 1 and 3B aparameters). Also the LLama 3.3 is open sourced which is a bigger brother with 70B parameters!
+    - Microsoft Phi4: Microsoft open sourced it's state-of-the-art Phi4 model with 14B parameters
     - Open AI released a lot! o3 mini, o1, GPT 4o and a lot more cool stuff!
     - Google Gemini 2.0 which is faster and cheaper then everyone else!
     
@@ -149,24 +149,24 @@ class: text-center
 
 ---
 layout: image-right
-image: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGJ0aG51YjYwNmtqanBhMjFiNnhnOGQ0cWcxcmpkZjJkYng3dzNpciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5PiSLx5ZHCLaxa5TEx/giphy.gif
+image: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGRkanZodjI0bHZpejBha2o2Mzhxdnk0cjZsZndobnNuNW1yam13bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wUmp8UfCWdOA4BOZqT/giphy.gif
 ---
 
 # What if...
 
-- Github Copilot or ChatGPT goes done?
-- **Oops!**
+- Github Copilot or ChatGPT goes down?
+- Your connection dropped?
+- Github Copilot has errors?
 - What are you going to do?
-- Do you have a problem!
 
 <!-- 
 
 ## What if...
 
-- Github Copilot or ChatGPT goes done?
-- Oops!
+- Github Copilot or ChatGPT goes down?
+- Your connection dropped?
+- Github Copilot has errors?
 - What are you going to do?
-- You are relying on AI, and now you have a problem!
 
  -->
 
@@ -181,7 +181,7 @@ class: text-center
 ## I had this at the beginning of the month
 
 - I selected the new Gemini 2.0 Flash
-- It broke 
+- It broke.
 
  -->
 
@@ -213,10 +213,10 @@ class: text-center
 
 ## Local AI to the rescue
 
-- Ollama: Developer friendly way to run opensource LLM's locally
+- Ollama: Developer friendly way to run open source LLMs locally
 - OpenWebUI: ChatGPT alternative which you can connect to Ollama
-- LM Studio: More friendly for non-developers to run opensource LLM's via a GUI
-- Continue.dev: IDE extension for Visual Studio Code and JetBrains to use multiple LLM's as AI coding assistant.
+- LM Studio: More friendly for non-developers to run open source LLMs via a GUI
+- Continue.dev: IDE extension for Visual Studio Code and JetBrains to use multiple LLMs as AI coding assistant.
 
  -->
 ---
@@ -286,7 +286,7 @@ class: text-center
 
 <Circle title="1" titleSize="font-bold text-6xl text-black font-italic" />
 
-_Running LLM's locally_
+_Running LLMs locally_
 
 ---
 class: text-center
@@ -312,7 +312,7 @@ class: text-center
 
 <!-- 
 
-## To run LLM's locally you need
+## To run LLMs locally you need
 - Ollama
 - OR
 - LM Studio
@@ -335,7 +335,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739051820/dw2025/images
 
 - 💖 Open source
 - 🧩 User-friendly.
-- 🔗 Intergrates with other tools
+- 🔗 Integrates with other tools
 - 📴 Offline usage
 - 📚 Large library of LLMs
 
@@ -349,8 +349,8 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739051820/dw2025/images
 - 📴 Offline usage (you need internet to download a LLM)
 - 📚 Large library of LLMs from multiple sources like: Ollama and huggingface
 - ⚡ Practical use cases:
-    - Use local LLM's from Ollama and huggingface
-    - Set system prompts, temprature, structured output
+    - Use local LLMs from Ollama and huggingface
+    - Set system prompts, temperature, structured output
 
  -->
 
@@ -367,7 +367,7 @@ class: text-center
 
 ## Demo time: LM Studio
 
-Ask `LLama3.2 3B`:
+Ask `LLama3.2:3B`:
 
 ```text
 What is the difference between a library and framework in the perspective of a developer?
@@ -378,7 +378,7 @@ What is the difference between a library and framework in the perspective of a d
 1. Open LM Studio
 2. Show modes
 3. Show LLM Library
-4. Start new chat with LLama3.2 3B
+4. Start new chat with LLama3.2:3B
 5. What is the difference between a library and framework in the perspective of a developer?
 
  -->
@@ -399,7 +399,7 @@ layout: image-right
 - 🔗 Offers REST API 
 - 🧩 Integrates with coding assistants and other tools
 - 📴 Offline usage
-- 🥇 The best opensource LLM's 
+- 🥇 The best open source LLMs 
 
 <!-- 
 
@@ -410,8 +410,8 @@ layout: image-right
 - 🧑‍💻 Is Terminal based
 - 🔗 Offers REST API to connect with your own applications
 - 🧩 Integrates with coding assistants and other tools
-- 📴 Offcourse you can use it offline (you need internet to download a LLM)
-- 🥇 The best opensource LLM's 
+- 📴 Of course you can use it offline (you need internet to download a LLM)
+- 🥇 The best open source LLMs 
 
  -->
 
@@ -431,7 +431,7 @@ class: text-center
 Ask `LLama3.2 3B`:
 
 ```text
-What is the difference between a library and framework in the perspective of a developer?
+What is the difference between a library and a framework from the perspective of a developer?
 ```
 
 <!-- 
@@ -440,7 +440,7 @@ What is the difference between a library and framework in the perspective of a d
 2. ollama list
 3. ollama pull llama3.2:3b
 4. ollama run llama3.2:3b
-5. What is the difference between a library and framework in the perspective of a developer?
+5. What is the difference between a library and a framework from the perspective of a developer?
 
  -->
 
@@ -505,7 +505,7 @@ layout: image-left
 
 - 💖 Open source
 - 🧑‍💻 Extensions for VS Code & JetBrains
-- 🧩 Integrates with many AI API's
+- 🧩 Integrates with many AI APIs
 - 📴 Offline/Online usage
 
 <!-- 
@@ -515,7 +515,7 @@ layout: image-left
 
 - 💖 Open source
 - 🧑‍💻 Extensions for Visual Studio Code & JetBrains IDE
-- 🧩 Integrates with many AI API's
+- 🧩 Integrates with many AI APIs
 - 📴 Offline/Online usage
 
  -->
@@ -622,7 +622,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739130057/dw2025/images
 
 - 💖 Open source
 - 🖥️ Run via Python or Docker
-- 🧩 Integrates with Ollama and other OpenAI-compatible API's
+- 🧩 Integrates with Ollama and other OpenAI-compatible APIs
 - 📴 Offline/Online usage
 - 🕸️ Built-in RAG to add knowledge base
 - 👥 User management
@@ -637,7 +637,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739130057/dw2025/images
 
 - 💖 Open source
 - 🖥️ Run via Python or Docker
-- 🧩 Integrates with Ollama and other OpenAI-compatible API's
+- 🧩 Integrates with Ollama and other OpenAI-compatible APIs
 - 📴 Offline/Online usage
 - 🕸️ Built-in engine for RAG (Retrieval-Augmented Generation) to add knowledge base
 - 👥 User management
@@ -692,7 +692,7 @@ class: text-center
 
 ## Prompt
 ```
-Tell me the 3 most reasons things why I should use TypeScript. But also 3 reasons why I shouldn’t.
+ell me the 3 main reasons why I should use TypeScript, and also 3 reasons why I shouldn’t.
 ```
 
 ---
@@ -711,7 +711,7 @@ layout: quote
 
 ## Let's put DeepSeek R1 to the test
 
-What goes wrong in this function? Explain it to me lik I'm 12 years old.
+What goes wrong in this function? Explain it to me like I'm 12 years old.
 ```javascript
 
 function containsValue(arr, value) {
@@ -757,7 +757,7 @@ layout: quote
 
 <h2 class="text-center">Recap</h2>
 
-- 🤖 **Ollama** and **LM Studio** run opensource LLM's
+- 🤖 **Ollama** and **LM Studio** run open source LLMs
 - 🧑‍✈️ **Continue.dev** > **Github Copilot**
 - 💬 **OpenWeb UI** > **ChatGPT**
 
@@ -779,7 +779,7 @@ layout: quote
 | **Privacy**       | _High_                     | _Low_                                |
 | **Cost**          | _One-time hardware cost_   | _Recurring subscription_             |
 | **Speed**         | _Depends on your hardware_ | _Most of the time fast_              |
-| **Control**       | _Full control over data_   | _Limited control controle over data_ |
+| **Control**       | _Full control over data_   | Limited control over data_           |
 | **Data Security** | _High_                     | _Variable_                           |
 | **Offline**       | _YES 💪_                   | _No_ 😭                             |
 
@@ -814,7 +814,7 @@ layout: quote
 <h2 class="text-center">Notes</h2>
 
 - 🏎️ Having a GPU offers performance boost 
-- 🤭 Don't use the biggest LLM's
+- 🤭 Don't use the biggest LLMs
 - 🪫 Drains your laptop battery faster 
 
 </div>
@@ -841,7 +841,7 @@ class: text-center
 
 ## Thank You!
 
-Questions are more then welcome via:
+Questions are more than welcome via:
 
 <div class="flex justify-center pt-4">
 <img src="https://res.cloudinary.com/raymons/image/upload/v1739136412/dw2025/images/qr-code.png" width="200" />
