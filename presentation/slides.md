@@ -796,15 +796,56 @@ layout: quote
 
 <h2 class="text-center">Tested on</h2>
 
-- 🥇 MSI Steelseries, Intel Core 9, 64GB RAM, Nvidia RTX 4070 (22 t/s)
-- 🥈 Macbook Pro M1 16GB (12 t/s)
-- 🥉 Asus Zenbook, AMD Ryzen 9 5900HX, 16GB RAM
+### 🥇 MSI Steelseries, Intel Core 9, <br /> 64GB RAM, Nvidia RTX 4070 
+
+<br />
+
+- DeepSeek R1 Qwen 7B: 50 tokens per second
+- LLama 3.2 7B: 32 tokens per second
 
 </div>
 </div>
 
 ---
 layout: quote
+---
+
+<div class="flex justify-center">
+
+<div>
+
+<h2 class="text-center">Tested on</h2>
+
+### 🥈 Macbook Pro M1 16GB RAM
+
+<br />
+
+- DeepSeek R1 Qwen 7B: 11 tokens per second
+- LLama 3.2 7B: 24 tokens per second
+
+</div>
+</div>
+
+---
+layout: quote
+---
+
+<div class="flex justify-center">
+
+<div>
+
+<h2 class="text-center">Tested on</h2>
+
+### 🥉 Asus Zenbook, <br /> AMD Ryzen 9 5900HX, 16GB RAM
+
+<br />
+
+- DeepSeek R1 Qwen 7B: 6 tokens per second
+- LLama 3.2 7B: 10 tokens per second
+
+</div>
+</div>
+
 ---
 
 <div class="flex justify-center">
