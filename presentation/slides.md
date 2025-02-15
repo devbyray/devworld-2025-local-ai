@@ -796,8 +796,8 @@ layout: quote
 
 <h2 class="text-center">Tested on</h2>
 
-- 🥇 MSI Steelseries, Intel Core 9, 64GB RAM, Nvidia RTX 4070
-- 🥈 Macbook Pro M1 16GB
+- 🥇 MSI Steelseries, Intel Core 9, 64GB RAM, Nvidia RTX 4070 (22 t/s)
+- 🥈 Macbook Pro M1 16GB (12 t/s)
 - 🥉 Asus Zenbook, AMD Ryzen 9 5900HX, 16GB RAM
 
 </div>
