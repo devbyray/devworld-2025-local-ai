@@ -13,7 +13,7 @@ const parseDate = dateStr => {
 	return new Date(year, month - 1, day)
 }
 
-const currentUnit = ref(0)
+const currentUnit = ref(1)
 const units = ['days', 'years']
 
 const displayAge = computed(() => {
@@ -21,20 +21,14 @@ const displayAge = computed(() => {
 	switch (units[currentUnit.value]) {
 		case 'days':
 			return `${Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24))} days`
-		case 'years':
-			return `${Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24 * 365.25))} years`
 		default:
-			return ''
+			return `${Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24 * 365.25))} years`
 	}
 })
-
-const toggleUnit = () => {
-	currentUnit.value = (currentUnit.value + 1) % units.length
-}
 </script>
 
 <template>
-	<div @click="toggleUnit">{{ displayAge }} old</div>
+	<div>{{ displayAge }}</div>
 </template>
 
 <style scoped>

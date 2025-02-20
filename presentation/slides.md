@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144310DSC05136.jpg
+background: https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 # some information about your slides (markdown enabled)
 info: |
     ## Slidev Starter Template
@@ -34,13 +34,55 @@ favicon: 'https://byrayray.dev/apple-touch-icon.png'
 </LowerThird>
 
 ---
+layout: image-right
+image: https://images.unsplash.com/photo-1727434032792-c7ef921ae086?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+---
+
+# Agenda
+
+- Why use Local AI
+- Open source LLM's
+- Ollama
+- LM Studio
+- Continue.dev
+- OpenWebUI
+
+---
 layout: quote
 class: text-center
 ---
 
-# Presentation
+# My goal
 
-[https://dw2025.byrayray.dev/](https://dw2025.byrayray.dev/)
+## That you will try Local AI.
+
+At least as a fallback 🤭
+
+---
+layout: quote
+class: text-center
+---
+
+<Center>
+
+
+# _I canceled my ChatGPT subscription_
+
+<img src="https://media.licdn.com/dms/image/v2/D4E22AQGo50O8hfOmPA/feedshare-shrink_800/B4EZTwR0jKGgAk-/0/1739197991647?e=1743033600&v=beta&t=kdDzvkR30zhnoYvSx0dPANBfL9GyIfFW7Q-QxIKBTsg" width="400" />
+
+</Center>
+
+---
+layout: image-left
+image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144310DSC05136.jpg
+backgroundSize: cover
+---
+# Who Am I?
+- 👋 I’m Raymon 
+- 📅 36 years
+- 🧑‍💻 Tech Lead at SBB via ShareValue
+- 🤖 I love working with, talking with, and playing with AI 
+- 🫶 Frontend Development is my specialty for <Age dob="01-09-2010" /> 
 
 ---
 layout: image-right
@@ -57,102 +99,45 @@ backgroundSize: cover
 - DeepSeek?
 
 ---
-class: text-center
----
 
-<Center>
+<TwoCols bg="https://res.cloudinary.com/raymons/image/upload/v1740083331/dw2025/images/statistic_id1483838_most-used-ai-search-and-developer-tools-among-developers-worldwide-2024.png">
 
-# Me too!
+# 👈 You are not alone!
 
-![](https://res.cloudinary.com/raymons/image/upload/v1686130675/devbyrayray/blog/1__0fLVc6GjamTuPR79Cqce4Q_69f1aa.png)
 
-</Center>
----
-layout: image-left
-image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144534DSC05142.jpg
-backgroundSize: cover
----
+</TwoCols>
 
-# Hi 👋 everyone
-
-- 👈Previous year with my buddy Marco. 
-- We showed how developers could use Github Copilot and ChatGPT.
-- This year I came back with more AI stuff! 🤖
 
 ---
-layout: image-left
-image: https://res.cloudinary.com/raymons/image/upload/v1739044905/dw2025/images/144310DSC05136.jpg
-backgroundSize: cover
----
-# Who Am I?
-- I’m Raymon
-- 36 years
-- Tech Lead at SBB via ShareValue
-- I love working with, talking with, and playing with AI 🤖
-- My speciality is Frontend Development 🫶
+
+<TwoCols bg="https://res.cloudinary.com/raymons/image/upload/v1740083331/dw2025/images/statistic_id1401409_most-popular-uses-of-ai-in-the-development-workflow-globally-2024.png">
+
+# 😲 A lot of developers use AI while writing code
+
+
+</TwoCols>
+
 
 ---
 layout: image-left
 image: https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+# The AI landscape has changed a lot!
 
-# The AI landscape has evolved a lot!
-
-**Recently**: 
-
+- xAi launched Grok 3 
 - DeepSeek open sourced R1
-- Meta open sourced LLama3.2 and 3.3
-- Microsoft Ph4
+- Github Copilot keeps adding LLM's
 - OpenAI launched 03 mini
+- Meta open sourced LLama3.2 and 3.3
 - Google Gemini 2.0
 - and so much more...
-
-<!-- 
-
-### The AI landscape has evolved a lot!
-
-- A lot has changed in the open source and closed source AI world
-- Recently:
-    - DeepSeek R1: It's reasoning model and the made it completely open source, including how they build it!
-    - LLama 3.2 and 3.2: Meta open sourced LLama 3.2 (small LLMs with 1 and 3B aparameters). Also the LLama 3.3 is open sourced which is a bigger brother with 70B parameters!
-    - Microsoft Phi4: Microsoft open sourced it's state-of-the-art Phi4 model with 14B parameters
-    - Open AI released a lot! o3 mini, o1, GPT 4o and a lot more cool stuff!
-    - Google Gemini 2.0 which is faster and cheaper then everyone else!
-    
-## A lot more, but we don't have time for that!
-
- -->
-
----
-layout: image-right
-image: /images/image.png
----
-
-<LowerThird>
-
-# 92% of U.S. based developers use AI
-_Source: [Github](https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience)_
-
-</LowerThird>
-
----
-layout: image-left
-image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnByd3ZzaDEybjV3OWZsbzl3Z2w5OGN6eWswandleHF1dG9zbmdkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b8RfbQFaOs1rO10ren/giphy.gif
-class: text-center
----
-
-<LowerThird>
-
-# That is a lot! 
-
-</LowerThird>
 
 ---
 layout: image-right
 image: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGRkanZodjI0bHZpejBha2o2Mzhxdnk0cjZsZndobnNuNW1yam13bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wUmp8UfCWdOA4BOZqT/giphy.gif
 ---
 
-# What if...
+# But, what if...
 
 - Github Copilot or ChatGPT goes down?
 - Your connection dropped?
@@ -176,14 +161,11 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739049194/dw2025/images
 class: text-center
 ---
 
-<!-- 
+<LowerThird>
 
-## I had this at the beginning of the month
+# Github Copilot Broke
 
-- I selected the new Gemini 2.0 Flash
-- It broke.
-
- -->
+</LowerThird>
 
 ---
 class: text-center
@@ -239,7 +221,7 @@ class: text-center
 <div class="h-full flex items-center flex-row justify-center">
     <div class=" grid grid-cols-2 gap-4">
         <div class=" col-span-2 flex justify-center items-center">
-            <h2> What did I use? </h2>
+            <h2> How did I overcome this issue? </h2>
         </div>
         <Card>
             <LmStudio /> 
@@ -276,8 +258,10 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739050210/dw2025/images
 layout: quote
 class: text-center
 ---
-## Let's dive into the world of local AI
-For Developers 💪
+
+# Let's dive into the world of local AI
+
+## _I'll take you on a journey_
 
 ---
 layout: quote
@@ -445,44 +429,42 @@ What is the difference between a library and a framework from the perspective of
  -->
 
 ---
-layout: two-cols-header
+layout: quote
+class: text-center
 ---
 
 <header class="mb-12">
 <span class="pr-2"><Circle title="5" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Ollama API</em>
 </header>
 
-Try `http://localhost:11434` in your browser.
+Try [http://localhost:11434](http://localhost:11434) in your browser.
 
-::left::
+
+---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="6" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Ollama API</em>
+</header>
+
+
 ```javascript
-//...
-
-const callApi = async () => {
-	loading.value = true
-	const res = await fetch('http://localhost:11434/api/generate', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify({
-			model: 'llama3.2:3b',
-			prompt: `What is the difference between
-            a library and framework in the 
-            perspective of a developer?`,
-			stream: false
-		})
-	})
-	const data = await res.json()
-	response.value = cleanResponse(data)
-	loading.value = false
-}
+const res = await fetch('http://localhost:11434/api/generate', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        model: 'llama3.2:3b',
+        prompt: `What is the difference between
+        a library and framework in the 
+        perspective of a developer?`,
+        stream: false
+    })
+})
+const data = await res.json()
 ```
 
-::right::
 
-
-<OllamaApiAction />
 
 <!-- 
 
@@ -492,12 +474,36 @@ const callApi = async () => {
  -->
 
 ---
+
+<header class="mb-12">
+<span class="pr-2"><Circle title="7" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Result of Ollama API</em>
+</header>
+
+
+```json
+{
+  "model": "llama3.2",
+  "created_at": "2025-02-20T20:43:57.139198326Z",
+  "response": "In the context of software development, both libraries and frameworks are used to build applications, but they serve different purposes and have distinct characteristics.\n\n**Library:**\n\nA library is a collection of pre-written code that provides a specific functionality or set of functionalities that can be easily integrated into an application. Libraries typically:\n\n1. Provide a specific feature or functionality that solves a particular problem.\n2. Are designed to be used by multiple projects, allowing developers to reuse the code.\n3. Typically do not include the underlying architecture or structure of the application.\n4. Can be used in conjunction with other libraries and frameworks.\n\nExamples of popular libraries include:\n\n* jQuery for client-side scripting\n* React Native for building mobile applications\n* TensorFlow for machine learning\n\n**Framework:**\n\nA framework, on the other hand, is a more comprehensive structure that provides a set of tools, libraries, and conventions to build an application. Frameworks typically:\n\n1. Provide a complete architecture or structure for building an application.\n2. Include a set of pre-built components, such as templates, views, and controllers.\n3. Often come with their own programming language or syntax.\n4. Encourage developers to follow a specific design pattern or approach.\n\nExamples of popular frameworks include:\n\n* React for building web applications\n* Angular for building complex web applications\n* Django for building web applications in Python\n\n**Key differences:**\n\n1. **Scope**: Libraries are typically smaller and more focused on a single functionality, while frameworks are larger and provide a more comprehensive structure.\n2. **Usage**: Libraries can be used independently, while frameworks often require the entire framework to be used.\n3. **Development style**: Libraries encourage a \"plugin-like\" development style, where developers add new functionality as needed. Frameworks, on the other hand, promote a more modular and structured approach.\n\nIn summary, libraries provide pre-built functionality that can be easily integrated into an application, while frameworks offer a complete structure and set of tools to build an entire application from scratch.\n\n**When to use each:**\n\n1. Use libraries when:\n * You need a specific feature or functionality that's not available in the framework.\n * You want to reuse code across multiple projects.\n * You prefer a more lightweight approach.\n2. Use frameworks when:\n * You're building a complex application that requires a structured architecture.\n * You want to take advantage of a pre-built set of tools and components.\n * You're willing to learn a new programming language or syntax.\n\nUltimately, the choice between using a library or framework depends on your specific needs, project requirements, and personal preferences.",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11063278246,
+  "load_duration": 4352626473,
+  "prompt_eval_count": 41,
+  "prompt_eval_duration": 422000000,
+  "eval_count": 522,
+  "eval_duration": 6284000000
+}
+```
+
+
+---
 image: https://res.cloudinary.com/raymons/image/upload/v1739054165/dw2025/images/26fb1209-1010-4c26-bdb3-dc1b8d734370.png
 layout: image-left
 ---
 
 <header class="mb-12">
-<span class="pr-2"><Circle title="6" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install Continue.dev</em>
+<span class="pr-2"><Circle title="8" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Install Continue.dev</em>
 </header>
 
 
@@ -527,7 +533,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739128074/dw2025/images
 ---
 
 <header class="mb-12">
-<span class="pr-2"><Circle title="7" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Continue.dev</em>
+<span class="pr-2"><Circle title="9" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Continue.dev</em>
 </header>
 
 <Continue class="mb-4" />
@@ -547,7 +553,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739128273/dw2025/images
 ---
 
 <header class="mb-12">
-<span class="pr-2"><Circle title="8" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Continue.dev</em>
+<span class="pr-2"><Circle title="10" titleSize="font-bold text-2xl text-black font-italic" size="small" /></span> <em>Use Continue.dev</em>
 </header>
 
 <Continue class="mb-4" />
@@ -562,8 +568,9 @@ layout: quote
 class: text-center
 ---
 
-## Now we replaced 
 <GithubCopilot class="pt-4" /> 
+
+## Is replaced
 
 
 ---
@@ -582,22 +589,6 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739129318/dw2025/images
 - ✅✅ Multiple LLM providers
 - 😉 As fast as your computer
 
-
-<!-- 
-
-## We didn't replaced everything from Github Copilot
-
-But with these features they are providing the most of it
-
-- ✅ Chat
-- ✅ Edit
-- ✅ Auto suggestions
-- ❌ Agents ([in development](https://github.com/continuedev/continue/issues/2274))
-- ✅✅ Docs index (this is a big plus especially with local AI, since it will pickup the dependencies in your package.json and create a vector database of it)
-- ✅✅ Multiple LLM providers (big plus! Both online and local providers!)
-- 😉 As fast as your computer! So if you have a GPU it can be fast enough, but not as fast as online services with big servers
-
- -->
 ---
 layout: quote
 class: text-center
@@ -630,22 +621,6 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739130057/dw2025/images
 - 🔍 Websearch
 - [Much more...](https://docs.openwebui.com/features/)
 
-<!-- 
-
-
-## OpenWebUI
-
-- 💖 Open source
-- 🖥️ Run via Python or Docker
-- 🧩 Integrates with Ollama and other OpenAI-compatible APIs
-- 📴 Offline/Online usage
-- 🕸️ Built-in engine for RAG (Retrieval-Augmented Generation) to add knowledge base
-- 👥 User management
-- 🛠️ Create custom Ollama models and agents
-- 🔍 Websearch
-- [Much more...](https://docs.openwebui.com/features/)
-
- -->
 
 ---
 layout: quote
@@ -768,23 +743,18 @@ layout: quote
 layout: quote
 ---
 
-<div class="flex justify-center">
+<Center>
 
-<div>
 
-## 🌐 Local AI vs Cloud AI
+## 🌐 Why use Local AI?
 
-| **Feature**       | L**ocal AI Tools**         | **Cloud AI Tools**                   |
-| ----------------- | -------------------------- | ------------------------------------ |
-| **Privacy**       | _High_                     | _Low_                                |
-| **Cost**          | _One-time hardware cost_   | _Recurring subscription_             |
-| **Speed**         | _Depends on your hardware_ | _Most of the time fast_              |
-| **Control**       | _Full control over data_   | Limited control over data_           |
-| **Data Security** | _High_                     | _Variable_                           |
-| **Offline**       | _YES 💪_                   | _No_ 😭                             |
+- 🔐 Data security 
+- 💪 Runs offline
+- 💰 No recuring subscriptions
+- 💻 Is as fast as your computer
 
-</div>
-</div>
+
+</Center>
 
 ---
 layout: quote
@@ -847,19 +817,28 @@ layout: quote
 </div>
 
 ---
+layout: quote
+---
+<Center>
 
-<div class="flex justify-center">
-
-<div>
 
 <h2 class="text-center">Notes</h2>
 
-- 🏎️ Having a GPU offers performance boost 
+- 🏎️ Having a separated GPU gives performance boost 
 - 🤭 Don't use the biggest LLMs
 - 🪫 Drains your laptop battery faster 
 
-</div>
-</div>
+</Center>
+
+---
+layout: quote
+class: text-center
+---
+
+
+# _Please install local AI at least as a backup_
+
+## You will thank me later 😏
 
 ---
 layout: quote

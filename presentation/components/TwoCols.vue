@@ -18,7 +18,7 @@ defineProps({
 <template>
 	<div class="flex flex-row h-full gap-4 relative pl-[50%]">
 		<div v-if="bg" class="h-[100%] fixed w-[50%] top-0 left-0">
-			<img v-if="typeBg === 'image'" :src="bg" class="object-cover object-center w-full h-full" alt="Col bg" />
+			<img v-if="typeBg === 'image'" :src="bg" class="object-contain object-center w-full h-full" alt="Col bg" />
 			<div v-if="typeBg === 'video'" class="flex items-center justify-center w-full h-full">
 				<SlidevVideo
 					class="object-cover object-center w-full h-auto"
