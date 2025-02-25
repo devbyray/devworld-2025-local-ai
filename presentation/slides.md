@@ -450,7 +450,7 @@ layout: image-left
 <Continue class="mb-4" />
 
 - 🧑‍💻 Open source
-- 🧑‍💻 Extensions for VS Code & JetBrains
+- 🔨 Extensions for VS Code & JetBrains
 - 🧩 Integrates with many AI APIs
 - 📴 Offline/Online usage
 
