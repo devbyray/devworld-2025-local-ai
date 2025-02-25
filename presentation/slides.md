@@ -157,55 +157,6 @@ class: text-center
 </LowerThird>
 
 ---
-class: text-center
----
-
-<div class="h-full flex items-center flex-row justify-center">
-    <div class=" grid grid-cols-2 gap-4">
-        <div class=" col-span-2 flex justify-center items-center">
-            <h2> local AI to the rescue 🛟 </h2>
-        </div>
-        <Card>
-            <Ollama  /> 
-        </Card>
-        <Card>
-            <OpenWebUI /> 
-        </Card>
-        <Card>
-            <LmStudio /> 
-        </Card>
-        <Card>
-            <Continue  /> 
-        </Card>
-    </div>
-</div>
-
-<!-- 
-
-## local AI to the rescue
-
-- Ollama: Developer friendly way to run open source LLMs locally
-- OpenWebUI: ChatGPT alternative which you can connect to Ollama
-- LM Studio: More friendly for non-developers to run open source LLMs via a GUI
-- Continue.dev: IDE extension for Visual Studio Code and JetBrains to use multiple LLMs as AI coding assistant.
-
- -->
----
-layout: image
-image: https://res.cloudinary.com/raymons/image/upload/v1739050286/dw2025/images/add-route-dotnet-continue-dev-landscape.png
-class: text-center
----
-
-<!-- 
-
-## I had a real world problem!
-
-1. I had to add a new route to a Dotnet application
-2. Since I'm not a .Net developer, I had no idea
-3. Microsoft it's documentation is not my favorite
-
- -->
----
 
 <div class="h-full flex items-center flex-row justify-center">
     <div class=" grid grid-cols-2 gap-4">
