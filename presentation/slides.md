@@ -607,7 +607,7 @@ class: text-center
 
 ## Prompt
 ```
-ell me the 3 main reasons why I should use TypeScript, and also 3 reasons why I shouldn’t.
+Tell me the 3 main reasons why I should use TypeScript, and also 3 reasons why I shouldn’t.
 ```
 
 ---
