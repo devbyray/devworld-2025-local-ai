@@ -19,7 +19,7 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-title: Empowering Developers with Local AI 🚀
+title: Empowering Developers with local AI 🚀
 author: Raymon S
 
 themeConfig:
@@ -29,7 +29,7 @@ favicon: 'https://byrayray.dev/apple-touch-icon.png'
 
 <LowerThird>
 
-# Empowering Developers with Local AI 🚀
+# Empowering Developers with local AI 🚀
 
 </LowerThird>
 
@@ -40,37 +40,12 @@ image: https://images.unsplash.com/photo-1727434032792-c7ef921ae086?q=80&w=1932&
 
 # Agenda
 
-- Why use Local AI
+- Why use local AI
 - Open source LLM's
 - Ollama
 - LM Studio
 - Continue.dev
 - OpenWebUI
-
----
-layout: quote
-class: text-center
----
-
-# My goal
-
-## That you will try Local AI.
-
-At least as a fallback 🤭
-
----
-layout: quote
-class: text-center
----
-
-<Center>
-
-
-# _I canceled my ChatGPT subscription_
-
-<img src="https://media.licdn.com/dms/image/v2/D4E22AQGo50O8hfOmPA/feedshare-shrink_800/B4EZTwR0jKGgAk-/0/1739197991647?e=1743033600&v=beta&t=kdDzvkR30zhnoYvSx0dPANBfL9GyIfFW7Q-QxIKBTsg" width="400" />
-
-</Center>
 
 ---
 layout: image-left
@@ -80,9 +55,23 @@ backgroundSize: cover
 # Who Am I?
 - 👋 I’m Raymon 
 - 📅 36 years
-- 🧑‍💻 Tech Lead at SBB via ShareValue
+- 🧑‍💻 Tech Lead at SBB
 - 🤖 I love working with, talking with, and playing with AI 
 - 🫶 Frontend Development is my specialty for <Age dob="01-09-2010" /> 
+
+---
+layout: quote
+class: text-center
+---
+
+<Center>
+
+
+# _In preparation_
+
+<img src="https://media.licdn.com/dms/image/v2/D4E22AQGo50O8hfOmPA/feedshare-shrink_800/B4EZTwR0jKGgAk-/0/1739197991647?e=1743033600&v=beta&t=kdDzvkR30zhnoYvSx0dPANBfL9GyIfFW7Q-QxIKBTsg" width="400" />
+
+</Center>
 
 ---
 layout: image-right
@@ -174,7 +163,7 @@ class: text-center
 <div class="h-full flex items-center flex-row justify-center">
     <div class=" grid grid-cols-2 gap-4">
         <div class=" col-span-2 flex justify-center items-center">
-            <h2> Local AI to the rescue 🛟 </h2>
+            <h2> local AI to the rescue 🛟 </h2>
         </div>
         <Card>
             <Ollama  /> 
@@ -193,7 +182,7 @@ class: text-center
 
 <!-- 
 
-## Local AI to the rescue
+## local AI to the rescue
 
 - Ollama: Developer friendly way to run open source LLMs locally
 - OpenWebUI: ChatGPT alternative which you can connect to Ollama
@@ -317,7 +306,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739051820/dw2025/images
 
 <LmStudio class="mb-4" />
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🧩 User-friendly.
 - 🔗 Integrates with other tools
 - 📴 Offline usage
@@ -327,7 +316,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739051820/dw2025/images
 
 ## Why use LM Studio?
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🧩 User-friendly interface for local AI models.
 - 🔗 Integrates with coding assistants and other tools
 - 📴 Offline usage (you need internet to download a LLM)
@@ -378,7 +367,7 @@ layout: image-right
 
 <Ollama class="mb-4" />
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🧑‍💻 Terminal based
 - 🔗 Offers REST API 
 - 🧩 Integrates with coding assistants and other tools
@@ -390,7 +379,7 @@ layout: image-right
 
 ## Ollama
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🧑‍💻 Is Terminal based
 - 🔗 Offers REST API to connect with your own applications
 - 🧩 Integrates with coding assistants and other tools
@@ -509,7 +498,7 @@ layout: image-left
 
 <Continue class="mb-4" />
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🧑‍💻 Extensions for VS Code & JetBrains
 - 🧩 Integrates with many AI APIs
 - 📴 Offline/Online usage
@@ -519,7 +508,7 @@ layout: image-left
 
 ## Continue.dev
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🧑‍💻 Extensions for Visual Studio Code & JetBrains IDE
 - 🧩 Integrates with many AI APIs
 - 📴 Offline/Online usage
@@ -611,7 +600,7 @@ image: https://res.cloudinary.com/raymons/image/upload/v1739130057/dw2025/images
 
 
 
-- 💖 Open source
+- 🧑‍💻 Open source
 - 🖥️ Run via Python or Docker
 - 🧩 Integrates with Ollama and other OpenAI-compatible APIs
 - 📴 Offline/Online usage
@@ -746,10 +735,10 @@ layout: quote
 <Center>
 
 
-## 🌐 Why use Local AI?
+## 🌐 Why use local AI?
 
 - 🔐 Data security 
-- 💪 Runs offline
+- 💪 Works offline
 - 💰 No recuring subscriptions
 - 💻 Is as fast as your computer
 
@@ -764,9 +753,9 @@ layout: quote
 
 <div>
 
-<h2 class="text-center">Tested on</h2>
+<h2 class="text-center">MSI Steelseries</h2>
 
-### 🥇 MSI Steelseries, Intel Core 9, <br /> 64GB RAM, Nvidia RTX 4070 
+### 🥇Intel Core 9, <br /> 64GB RAM, Nvidia RTX 4070 
 
 <br />
 
@@ -784,9 +773,9 @@ layout: quote
 
 <div>
 
-<h2 class="text-center">Tested on</h2>
+<h2 class="text-center"> Macbook Pro M1</h2>
 
-### 🥈 Macbook Pro M1 16GB RAM
+### 🥈 16GB RAM
 
 <br />
 
@@ -804,9 +793,9 @@ layout: quote
 
 <div>
 
-<h2 class="text-center">Tested on</h2>
+<h2 class="text-center">Asus Zenbook</h2>
 
-### 🥉 Asus Zenbook, <br /> AMD Ryzen 9 5900HX, 16GB RAM
+### 🥉AMD Ryzen 9 5900HX, 16GB RAM
 
 <br />
 
@@ -850,7 +839,7 @@ class: text-center
 [https://dw2025.byrayray.dev/](https://dw2025.byrayray.dev/)
 
 
-Repo: [https://github.com/devbyray/devworld-2025-local-ai](https://github.com/devbyray/devworld-2025-local-ai)
+Repository: [https://github.com/devbyray/devworld-2025-local-ai](https://github.com/devbyray/devworld-2025-local-ai)
 
 _Created with [Sli.dev](https://sli.dev)_
 
