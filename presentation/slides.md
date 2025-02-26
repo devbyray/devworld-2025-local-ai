@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+background: https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 # some information about your slides (markdown enabled)
 info: |
     ## Slidev Starter Template
@@ -108,18 +108,63 @@ backgroundSize: cover
 
 
 ---
-layout: image-left
-image: https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+layout: quote
+class: text-center
 ---
+<Center>
+
 # The AI landscape has changed a lot!
 
-- xAi launched Grok 3 
-- DeepSeek open sourced R1
-- Github Copilot keeps adding LLM's
-- OpenAI launched 03 mini
-- Meta open sourced LLama3.2 and 3.3
-- Google Gemini 2.0
-- and so much more...
+</Center>
+
+---
+layout: image
+image: https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4a4df6b6629f9814aec4eb9323028130f43a8d70-1920x1080.png&w=3840&q=75
+class: text-center
+---
+
+# Claude 3.7 Sonnet + Claude Code 
+
+---
+layout: image
+image: https://images.ctfassets.net/kftzwdyauwt9/BQXodBZ63FtQq6CGcPQQh/955ea49d3cf09e7ad33129d8a81b4087/o3-mini_1.1.png?w=1920&q=90&fm=webp
+class: text-center
+---
+
+<Center>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+# _is free for all users_
+
+</Center>
+
+---
+layout: image
+class: text-center
+image: https://x.ai/_next/image?url=%2Fscreenshots%2Fscreenshot-1.png&w=3840&q=75
+---
+
+
+---
+layout: quote
+class: text-center
+---
+
+<Center>
+
+
+# _DeepSeek R1 is open source_
+
+<img src="https://github.com/deepseek-ai/DeepSeek-V2/raw/main/figures/logo.svg?raw=true"
+width="800" />
+
+</Center>
 
 ---
 layout: image-right
